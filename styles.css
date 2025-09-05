@@ -23,7 +23,7 @@
 
 body {
     padding-top: 120px; 
-    height: 100vh;
+    min-height: 100vh;  
     margin: 0;
     background: linear-gradient(135deg, hsl(281, 32%, 17%), #6c23f5);
     display: flex;
@@ -75,6 +75,7 @@ body {
 
 
 .container {
+    margin-top: 60px; /* espaço seguro da navbar */
     width: 400px;
     height: 540px;
     background-color: rgba(24, 21, 29, 0.2); 
