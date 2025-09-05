@@ -22,14 +22,14 @@
 
 
 body {
-    height: 100vh;
+    padding-top: 80px; 
+    height: 100%;
     margin: 0;
     background: linear-gradient(135deg, hsl(281, 32%, 17%), #6c23f5);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     font-family: var(--font-primary);
-    
 }
 
 
@@ -85,14 +85,13 @@ body {
     color: #232323;
 }
 
-.profile_img{
+.profile_img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    display: flex;
-    margin: 160px auto 0 auto;
-
+    display: block;
+    margin: 20px auto 0 auto; 
 }
 
 .Titulo_container{
